@@ -4,19 +4,19 @@
 
 int main()
 {
-    // std::string fullName{}; // Defining the variable with name 'fullName' and data type 'string'
-    // std::cin >> fullName;   // Now, if entered name if "Elon", the output is "Elon". But if the input is "Elon Musk", the output is also "Elon"
-    // std::cout << "NAME = " << fullName << '\n';
+    std::string fullName{}; // Defining the variable with name 'fullName' and data type 'string'
+    std::cin >> fullName;   // Now, if entered name if "Elon", the output is "Elon". But if the input is "Elon Musk", the output is also "Elon"
+    std::cout << "NAME = " << fullName << '\n';
 
-    // /**C++ reads until the first whitespace.
-    //  * Whitespace means
-    //  * Space ' '
-    //  * tab '\t'
-    //  * newline '\n'
-    //  */
+    /**C++ reads until the first whitespace.
+     * Whitespace means
+     * Space ' '
+     * tab '\t'
+     * newline '\n'
+     */
 
-    // // A better way to input string is by using std::getline()
-    // std::getline(std::cin, fullName); // It keeps reading until it reaches \n or one other words Enter is pressed.
+    // A better way to input string is by using std::getline()
+    std::getline(std::cin, fullName); // It keeps reading until it reaches \n or one other words Enter is pressed.
 
     // PROBLEM With std::getline()
     int age{};
