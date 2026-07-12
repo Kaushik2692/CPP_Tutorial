@@ -4,7 +4,7 @@
 
 int main()
 {
-    std::string fullName{}; // Defining the variable with name 'fullName' and data type 'string'
+    std::string fullName{}; // Declaring the variable with name 'fullName' and data type 'string'
     std::cin >> fullName;   // Now, if entered name if "Elon", the output is "Elon". But if the input is "Elon Musk", the output is also "Elon"
     std::cout << "NAME = " << fullName << '\n';
 
