@@ -38,7 +38,7 @@ program.exe
 
 - [x] Program structure
 - [x] Input and output
-- [ ] Variables and constants
+- [x] Variables and constants
 - [ ] Data types
 - [ ] Operators
 - [ ] Type conversions
