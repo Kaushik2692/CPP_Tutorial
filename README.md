@@ -36,8 +36,8 @@ program.exe
 
 ## Topics
 
-- [ ] Program structure
-- [ ] Input and output
+- [x] Program structure
+- [x] Input and output
 - [ ] Variables and constants
 - [ ] Data types
 - [ ] Operators
